@@ -1,0 +1,39 @@
+{
+    "__meta__": {
+        "about": "HTTPie session file",
+        "help": "https://httpie.io/docs#sessions",
+        "httpie": "3.2.1"
+    },
+    "auth": {
+        "password": null,
+        "type": null,
+        "username": null
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "x-country",
+            "value": "CL"
+        },
+        {
+            "name": "x-chref",
+            "value": "WEB"
+        },
+        {
+            "name": "x-commerce",
+            "value": "Falabella"
+        },
+        {
+            "name": "x-cmref",
+            "value": "RFID"
+        },
+        {
+            "name": "x-rhsref",
+            "value": "localhost"
+        },
+        {
+            "name": "x-txref",
+            "value": "test"
+        }
+    ]
+}

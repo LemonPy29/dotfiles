@@ -1,0 +1,39 @@
+{
+    "__meta__": {
+        "about": "HTTPie session file",
+        "help": "https://httpie.io/docs#sessions",
+        "httpie": "3.2.1"
+    },
+    "auth": {
+        "password": null,
+        "type": null,
+        "username": null
+    },
+    "cookies": [],
+    "headers": [
+        {
+            "name": "X-chRef",
+            "value": "1"
+        },
+        {
+            "name": "X-cmRef",
+            "value": "1"
+        },
+        {
+            "name": "X-commerce",
+            "value": "1"
+        },
+        {
+            "name": "X-country",
+            "value": "CL"
+        },
+        {
+            "name": "X-rhsRef",
+            "value": "1"
+        },
+        {
+            "name": "X-txRef",
+            "value": "1"
+        }
+    ]
+}
