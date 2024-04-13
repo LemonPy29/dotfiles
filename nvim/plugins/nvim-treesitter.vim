@@ -14,7 +14,10 @@ require'nvim-treesitter.configs'.setup {
       "vue",
       "html",
       "css",
-      "toml"
+      "toml",
+      "lua",
+      "vim",
+      "sql",
       },
 
   highlight = {

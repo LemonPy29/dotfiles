@@ -51,7 +51,6 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'neovim/nvim-lspconfig'
-Plug 'neovim/nvim-lspconfig'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
@@ -76,7 +75,13 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'sindrets/diffview.nvim'
 Plug 'mfussenegger/nvim-dap'
 Plug 'rcarriga/nvim-dap-ui'
-Plug  'mxsdev/nvim-dap-vscode-js'
+Plug 'mxsdev/nvim-dap-vscode-js'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+Plug 'mfussenegger/nvim-lint'
+Plug 'scalameta/nvim-metals'
+Plug 'romgrk/barbar.nvim'
+Plug 'tpope/vim-dadbod'
+Plug 'kristijanhusak/vim-dadbod-ui'
 call plug#end()
 
 source ~/.config/nvim/plugins/lsp.vim
@@ -94,6 +99,8 @@ source ~/.config/nvim/plugins/lualine.vim
 source ~/.config/nvim/plugins/diffview.vim
 source ~/.config/nvim/plugins/go-lsp.vim
 source ~/.config/nvim/plugins/dap.lua
+source ~/.config/nvim/plugins/nvim-lint.vim
+source ~/.config/nvim/plugins/scalameta.vim
 
 colorscheme duskfox
 hi ColorColumn ctermbg=4
